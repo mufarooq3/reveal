@@ -1,0 +1,51 @@
+@charset "utf-8";
+.imgBg
+{
+	background-image: url(img/card_logos/imgBg.png);
+    background-repeat: no-repeat;
+}
+.image0{
+	background-image: url('../img/card_logos/imgBg.png'); background-repeat: no-repeat;height: 320px; padding-top:15px;
+}
+.image1
+{
+	background-image: url("../img/card_logos/img3.png"); 
+	background-repeat: no-repeat; 
+	height:100%;
+	width: 100%;
+	margin-left: 10px;
+	position: relative !important; 
+}
+.image1 .circle{
+	/*position: absolute;
+    margin: auto;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;*/
+}
+.image3
+{
+	background-image : url(../img/card_logo/image1_4.png);
+	background-repeat : no-repeat;
+}
+.image
+{
+	position: relative;
+	padding: 30% 25%;
+}
+.image-corver{
+	position: absolute;
+	right: 0;
+}
+
+
+
+.Estilodecarcternormal
+{
+	font-family : Roboto;
+	font-size : 25px;
+	line-height : 6px;
+	color : #FFFFFF;
+	color : rgb(255, 255, 255);
+}

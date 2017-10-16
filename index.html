@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>REVEAL SYSTEMS</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,700" rel="stylesheet">
+    <!-- Theme CSS -->
+     <link href="css/Explore.css" rel="stylesheet">
+    <link href="css/agency.css" rel="stylesheet">
+    
+    <style>
+
+    body{
+          font-family: 'Roboto', sans-serif !important;
+    }
+        #bodymovin {
+                width: 75%;
+                float: left;
+                overflow: hidden;
+                transform: translate3d(0,0,0);
+                clear: left;
+                left: 57%;
+                position: absolute;
+                top: -5%;
+            }
+
+        .botas_loop_3 ,.botas_loop_2{
+            display:none
+        }
+
+        .App-logo {
+            animation: App-logo-spin infinite 400s linear;
+        }
+        @keyframes App-logo-spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+        .box1{
+            position: relative;
+        }
+        .box1>p{
+            margin-top: 280px;
+            text-align: center;
+            font-size: 15px !important;
+            font-family: ROBOTO !important;
+            font-weight: 300;
+
+        }
+        .text-center1{
+            position: absolute;top: 15%;margin: auto;right: 0;left: 0; bottom:0;
+        }
+        .bg-black-white{
+              padding:20px !important; background-color:rgb(40,35,39) !important;
+              color: #fff;
+            }
+        .box{
+            position: absolute;
+            display: inline-block;
+            height: 250px;
+            border-radius: 15px;
+            width: 250px;
+            text-align: center;
+            box-shadow: -3px -1px 23px grey;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+        .box2{
+            position: absolute;width: 55%;left: 2%;
+        }
+        .text-center >p{
+           
+            font-size: 21px;
+            max-width: 1000px;
+            display: inline-block;
+            text-align: justify;
+            line-height: 1.2;
+            font-weight: 500;
+            text-align-last: center;
+        }
+        .text-center >h1{
+            font-size: 42px;
+            color:#28abe3 !important;
+            font-family: 'Roboto', sans-serif !important;
+            font-weight: bold;
+        }
+        .boot-img{
+            position: absolute;
+            left: 95%;
+            top: 20%;
+            z-index: -1;
+            width: 32%;
+        }
+
+
+        #bodymovin2{
+              opacity:0.2 ;width:50%; margin-left:-170px !important;
+
+            }
+
+           #bodymovin3{
+                opacity:0.2 ;width:50%; margin-left:-150px !important;
+            }
+
+        @media screen and (max-width: 1024px) {
+            .boot-img {
+                position: absolute;
+                left: 87.5%;
+                top: 85%;
+                z-index: -122;
+                width: 20%;
+                clip: rect(0px,149px,200px,0px);
+            }
+            header .intro-text {
+                padding-top: 200px !important;
+                padding-bottom: 200px;
+            }
+            header{
+               padding-top: 100px !important;
+                height: 400px;
+
+            }
+            #bodymovin {
+                width: 80%;
+                float: left;
+                overflow: hidden;
+                transform: translate3d(0,0,0);
+                clear: left;
+                left: 45%;
+                position: absolute;
+                top: 0%;
+                opacity: 0.5;
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            header{
+               padding-top: 100px !important;
+                height: 350px;
+
+            }
+            #bodymovin {
+                width: 80%;
+                float: left;
+                overflow: hidden;
+                transform: translate3d(0,0,0);
+                clear: left;
+                left: 45%;
+                position: absolute;
+                top: 0%;
+                opacity: 0.5;
+            }
+
+            /*.bg-black-white{
+              padding:100px 20px !important; background-color:rgb(40,35,39) !important;
+              color: #fff;
+            }
+            .text-center{
+                top: 0 !important;
+            }*/
+            .text-center>h1{
+                font-size:24px;
+            }
+            .text-center >p{
+                font-size: 16px;
+                max-width: 800px;
+                display: inline-block;
+                text-align: justify;
+                line-height: 1.5;
+                text-align-last: center;
+                padding:0 10px;
+            }
+            .boot-img {
+                position: absolute;
+                left: 83%;
+                top: 85%;
+                z-index: -122;
+                width: 20%;
+                clip: rect(0px,145px,200px,0px);
+                overflow-x: hidden;
+                overflow: hidden;
+            }
+            .box {
+                top: -265px;
+            }
+            .box2{
+
+                top: 0px;
+            }
+            .reviwes{
+                padding-bottom: 200px !important;
+            }
+
+            .box4{
+                padding: 1px;
+            }
+            .box4 >h2{
+                font-size: 24px;
+            }
+            .box4 >p, .box4 >h2 >p{
+                line-height: 1.5;
+                font-size: 14px;
+            }
+        }
+
+
+        @media screen and (max-width: 480px) {
+            header{
+                padding-top: 100px !important;
+                height: 200px;
+            }
+            #bodymovin {
+                width: 80%;
+                float: left;
+                overflow: hidden;
+                transform: translate3d(0,0,0);
+                clear: left;
+                left: 37%;
+                position: absolute;
+                top: 11.5%;
+                opacity: 0.7;
+            }
+
+            #bodymovin2{
+                opacity: 0.2;
+                width: 190%;
+                margin-left: -170px !important;
+
+            }
+
+            #bodymovin3{
+                opacity: 0.2;
+                width: 200%;
+                margin-left: -150px !important;
+
+            }
+
+
+            .text-center>h1{
+                font-size:24px;
+            }
+            .text-center >p{
+                font-size: 16px;
+                max-width: 800px;
+                display: inline-block;
+                text-align: justify;
+                line-height: 1.5;
+                text-align-last: center;
+                padding:0 10px;
+            }
+            .boot-img {
+                position: absolute;
+                left: 65%;
+                top: 85%;
+                z-index: -122;
+                width: 40%;
+                clip: rect(0px,145px,200px,0px);
+                /* overflow-x: hidden; */
+                overflow: hidden;
+            }
+            .box {
+                top: -265px;
+            }
+            .box2{
+                background-color: white;
+                color: black;
+                height: 200px;
+                position: absolute;
+                width: 200px;
+                border-radius: 15px;
+                left: 0;
+                right: 0;
+                top: 20px;
+                margin: auto;
+                /* margin-bottom: 100px; */
+            }
+            .reviwes{
+            padding-bottom: 200px !important;
+             }
+
+            .box4{
+                padding: 1px;
+            }
+            .box4 >h2{
+                font-size: 24px;
+            }
+            .box4 >p, .box4 >h2 >p{
+                line-height: 1.5;
+                font-size: 12px;
+            }
+
+            .imgbbb{
+                display: none;
+            }
+
+            section h2.section-heading {
+                font-size: 24px;
+                margin-top: 0;
+                margin-bottom: 15px;
+            }
+
+                section h3.section-subheading {
+                    margin-bottom: 35px;
+                }
+
+                section#contact .form-group textarea.form-control {
+                        height: 120px;
+                    }
+
+                    section#contact .form-group input, section#contact .form-group textarea {
+                    padding: 5px;
+                }
+
+
+
+        }
+    </style>
+    <!-- build:js bodymovin.js -->
+    <script src="js/bodymovin.js"></script>
+   
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top" style="padding:0px !important;">
+                    <img src="logo.png" class="img-responsive" style="max-height: 55px;">
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                  
+                     <li>
+                        <a class="page-scroll" href="#boot-camp">Bootcamp</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#team">Team</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+<div class="App-logo" id="bodymovin"></div>
+    <!-- Header -->
+    <header>
+          
+        <div class="container" style="padding: 0 !important;">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active" style="width:100%;">
+                    <img class="img-responsive" src="img/text1.png" alt="Slider text" />
+                </div>
+                  <div class="item" style="width:100%;left: -3%;">
+                    <img class="img-responsive" src="img/text2.png" alt="Slider text" />
+                </div>
+                <div class="item" style="width:100%;left: -3%;">
+                    <img class="img-responsive" src="img/text3.png" alt="Slider text" />
+                </div>   
+            </div>
+        </div>
+        </div>
+
+    </header>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <div class="animate1" style="width: 320px;position: relative;">
+                        <img class=" img-responsive"src="img/cards/1_base.png" style="width: 320px;">
+                        <div class="">
+                            <img class="img-responsive animate12" src="img/cards/1_image.png" style="position: absolute;top: 0px;width: 320px;">
+                             <div class="explore" style='position: absolute;top: 275px;right: 40px;font-size: 30px;font-weight: 700;font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;color: white;'>
+                                EXPLORE
+                            </div> 
+                            <div class=""> 
+                                <img class="img-responsive animate13" src="img/cards/1_top.png" style="position: absolute;top: -7px;">                       
+                            </div>
+                        </div>
+                    </div>               
+                </div>
+
+                <div class="col-md-4 col-sm-6">
+                    <div class="animate2" style="width: 320px;position: relative;">
+                        <img class=" img-responsive circle"src="img/cards/2_base.png" style="width: 320px;" >
+                        <!-- <div style='position: absolute;top: 80px;left: 100px;font-size: 20px;font-weight: 700;font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;'>
+                            <h2>Lets Get<h4>STARTED</h4><h2>
+                        </div> -->
+                        <div class="">
+                            <img class="img-responsive animate22" src="img/cards/2_image.png" style="position: absolute;top: 0px;width: 320px;">
+                             <div class="create" style='position: absolute;top: 275px;right: 40px;font-size: 30px;font-weight: 700;font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;color: white;'>
+                                CREATE
+                            </div> 
+                            <div class=""> 
+                                <img class="img-responsive animate233" src="img/cards/2_top.png" style="position: absolute;top: -7px;">                                    
+                            </div>
+                        </div>
+                    </div>               
+                </div>
+
+                <div class="col-md-4 col-sm-6">
+                    <div class="animate3" style="width: 320px;position: relative;">
+                        <img class=" img-responsive circle"src="img/cards/3_base.png" style="width: 320px;">
+                        <div class="">
+                            <img class="img-responsive animate32" src="img/cards/3_image.png" style="position: absolute;top: 0px;width: 320px;">
+                              <div class="produce" style='position: absolute;top: 275px;right: 40px;font-size: 30px;font-weight: 700;font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;color: white;'>
+                                PRODUCE
+                            </div> 
+                            <div class=""> 
+                                <img class="img-responsive animate33" src="img/cards/3_top.png" style="position: absolute;top: -7px;">                       
+                            </div>
+                        </div>
+                    </div>               
+                </div>
+            </div>
+        </div> 
+    </section>
+
+    <section id="#who_are_we" class="bg-black-white" style="">
+        <div class="container-fluid">
+            <div class="row" style="position:relative;">
+                  <div class="movenone" id="bodymovin2" style=""></div>
+                
+                <div class="text-center text-center1" style="">
+                    <h1 style="color:#fff !important;">WHAT WE DO AT REVEAL?</h1>
+                    <P style="">
+                        ReVeal(Recognation, Vision and Learning) Research group ReVeal is a research group that focuses on applied research in Visual Recognation, Computer vision and Machine learning for solving real world large scale complex problem </P>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="boot-camp" style="padding-bottom:150px">
+        <div class="container">
+            <div class="row" style="position:relative">
+                <div class="text-center">
+                    <h1 style="color:#619af4;">BootCamp</h1>
+                    <P style="">Bootcamp consists of lecture sessions which will introduce basic theoratical
+                        aspects from algorithmic perspective and hands-on lab sessions to implement in
+                        Python Data Science Stack. Participants are trained to work on real-life datasets,
+                        and mentored to participate in three different Kaggle competions</P>
+                </div>
+                <img class="img-responsive boot-img"  src="img/cards/blue_circle.png" style="">
+            </div>
+        </div>
+    </section>
+
+    <section id="#reviwes" class="bg-black-white reviwes" style="padding: 10px;">
+        <div class="container">
+            <div style=" text-align: center">
+                <h1>Reviews</h1>
+            </div>
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                        <div class="item active col-md-12" style="padding: 65px 0;margin-left: 13%">
+                            <div class="col-md-offset-1 col-md-7 col-sm-8" style="padding-right: 5px;">
+                                <div class="col-md-12" style="background-color: white;color: black;height: 200px;border-radius: 15px;">
+                                    <div class="box4">
+                                        <h2 style="font-size: 18px;">Dr.Anthony Jones<p>Lecuturer University of Engineering and Technology</p></h2>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In id dui laoreet est
+                                            aliquet convallis sed et nisi. Pellentesque a porta sapien. Mauris sit amet
+                                            purus tristique, scelerisque libero eget, luctus est. tp</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item col-md-12" style="padding: 65px 0;margin-left: 13%">
+                            <div class="col-md-offset-1 col-md-7 col-sm-8" style="padding-right: 5px;">
+                                <div class="col-md-12" style="background-color: white;color: black;height: 200px;border-radius: 15px;">
+                                    <div class="box4">
+                                        <h2 style="font-size: 18px;">Dr.Anthony Jones<p>Lecuturer University of Engineering and Technology</p></h2>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In id dui laoreet est
+                                            aliquet convallis sed et nisi. Pellentesque a porta sapien. Mauris sit amet
+                                            purus tristique, scelerisque libero eget, luctus est. tp</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item col-md-12" style="padding: 65px 0;margin-left: 13%">
+                            <div class="col-md-offset-1 col-md-7 col-sm-8" style="padding-right: 5px;">
+                                <div class="col-md-12" style="background-color: white;color: black;height: 200px;border-radius: 15px;">
+                                    <div class="box4">
+                                        <h2 style="font-size: 18px;">Dr.Anthony Jones<p>Lecuturer University of Engineering and Technology</p></h2>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In id dui laoreet est
+                                            aliquet convallis sed et nisi. Pellentesque a porta sapien. Mauris sit amet
+                                            purus tristique, scelerisque libero eget, luctus est. tp</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                      <!-- Left and right controls  -->
+                    <!-- <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>  -->
+                </div>
+
+                <!-- <div class="col-md-3 col-sm-3 " style="padding: 0;">
+                    <div class="box2" style="background-color: white;color: black;height: 200px;width: 200px;border-radius: 15px;">
+                        <div class="" style="/*position: absolute;width: 55%;left: 2%;*/">
+                            <img class="img-centered img-responsive" style="margin-top: -5px;" src="img/circle.png" alt="">
+                        </div>
+                    </div>
+                </div> -->
+
+        </div>
+    </section>
+
+    <section id="team" style="padding: 30px 0;position: relative;">
+
+         
+
+        <div class="row" >
+            <div  style="position: absolute;top:0;"> 
+                <img class="imgbbb img-centered img-responsive" src="img/bg1.png" alt="" style=""> 
+           </div>
+           
+            <div class=" container">
+                <div class="row" style="text-align: center">
+                   <h1 style="font-size: 33px;
+                color:#28abe3 !important;
+                font-family: 'Roboto', sans-serif !important;
+                font-weight: bold;">Team</h1>
+
+                </div>
+
+                <div class="row" style="margin: 5% 0;position:relative;">
+                    <div class="box1" style="position:absolute;margin-left:12%">
+                        <div class="box">
+
+                        </div>
+                        <p style="font-size:27px">DR. SIBT UL HUSSAIN</p>
+                    </div>
+                    <div class="box1" style="position:absolute;margin-left:39%">
+                        <div class="box">
+
+                        </div>
+                        <p style="font-size:27px">DR. USMAN FARRUKH</p>
+                    </div>
+                    <div class="box1" style="position:absolute;margin-left:66%">
+                        <div class="box">
+
+                        </div>
+                        <p style="font-size:27px">DR. USMAN FARRUKH</p>
+                    </div>
+               
+                    <div class="box1" style="position:absolute;margin: 28% 0% 0% 25%;">
+                        <div class="box">
+
+                        </div>
+                        <p style="font-size:27px">DR. SIBT UL HUSSAIN</p>
+                    </div>
+                    <div class="box1" style="position:absolute;margin: 28% 0% 0% 52%;">
+                        <div class="box">
+
+                        </div>
+                        <p style="font-size:27px">DR. USMAN FARRUKH</p>
+                    </div>
+
+                </div>
+            </div>
+
+ </div>
+                <div class="row text-center" style="margin-top: 45%;">
+                 <h1 style="">Affiliates</h1>
+                    <div class="row text-center">
+                        <div style="margin: 3% 0;">
+                            <div style="position: relative;display: inline-block;height: 120px;border-radius: 15px;width: 120px; background-color: lightgray"></div>
+                            <div style="position: relative;display: inline-block;height: 120px;border-radius: 15px;width:120px; background-color: lightgray"></div>
+                            <div style="position: relative;display: inline-block;height: 120px;border-radius: 15px;width: 120px; background-color: lightgray"></div>
+                            <div style="position: relative;display: inline-block;height: 120px;border-radius: 15px;width: 120px; background-color: lightgray"></div>
+                            <div style="position: relative;display: inline-block;height: 120px;border-radius: 15px;width: 120px; background-color: lightgray"></div>
+                            <div style="position: relative;display: inline-block;height: 120px;border-radius: 15px;width: 120px; background-color: lightgray"></div>
+                            <div style="position: relative;display: inline-block;height: 120px;border-radius: 15px;width: 120px; background-color: lightgray"></div>
+                            <div style="position: relative;display: inline-block;height: 120px;border-radius: 15px;width: 120px; background-color: lightgray"></div>
+                            <div style="position: relative;display: inline-block;height: 120px;border-radius: 15px;width: 120px; background-color: lightgray"></div>
+                        </div>
+                        <div style="margin: 3% 0;">
+                            <div style="position: relative;display: inline-block;height: 120px;border-radius: 15px;width: 120px; background-color: lightgray"></div>
+                            <div style="position: relative;display: inline-block;height: 120px;border-radius: 15px;width:120px; background-color: lightgray"></div>
+                            <div style="position: relative;display: inline-block;height: 120px;border-radius: 15px;width: 120px; background-color: lightgray"></div>
+                            <div style="position: relative;display: inline-block;height: 120px;border-radius: 15px;width: 120px; background-color: lightgray"></div>
+                            <div style="position: relative;display: inline-block;height: 120px;border-radius: 15px;width: 120px; background-color: lightgray"></div>
+                            <div style="position: relative;display: inline-block;height: 120px;border-radius: 15px;width: 120px; background-color: lightgray"></div>
+                            <div style="position: relative;display: inline-block;height: 120px;border-radius: 15px;width: 120px; background-color: lightgray"></div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+      
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" >
+          <div class="movenone" id="bodymovin3" style=""></div>
+        <div class="container" style="position: absolute;top: 10%;left: 0;right: 0;">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Contact Us</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+
+                    <form name="sentMessage" id="contactForm" novalidate>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Your Name *" id="name" required data-validation-required-message="Please enter your name.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" class="form-control" placeholder="Your Phone *" id="phone" required data-validation-required-message="Please enter your phone number.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="col-lg-12 text-center">
+                                <div id="success"></div>
+                                <button type="submit" class="btn btn-xl">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+       
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright &copy; Your Website 2017</span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline">
+                        <li><a href="#"><img src="img/logos/fb.png" style="width: 47px;height: 47px;"></a>
+                        </li>
+                        <li><a href="#"><img src="img/logos/g+.png" style="width: 47px;height: 47px;"></a>
+                        </li>
+                        <li><a href="#"><img src="img/logos/twitter.png" style="width: 47px;height: 47px;"></a>
+                        </li>
+                        <li><a href="#"><img src="img/logos/yt.png" style="width: 47px;height: 47px;"></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline quicklinks">
+                        <li><a href="#">Privacy Policy</a>
+                        </li>
+                        <li><a href="#">Terms of Use</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" integrity="sha384-mE6eXfrb8jxl0rzJDBRanYqgBxtJ6Unn4/1F7q4xRRyIw7Vdg9jP4ycT7x1iVsgb" crossorigin="anonymous"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/agency.js"></script>
+
+    <!-- script for hover effetc on services box -->
+            <script> 
+            $(document).ready(function(){
+                //Explore
+                $(".animate1").hover(
+                    function(){
+                    $(".explore").css("display","none");
+                    // $(".animate12").animate({top: '185px', width:'150px'},"slow");
+                    $(".animate12").animate({top: '175px', width:'150px', left:'10'},"slow");
+                   
+                    },
+                    function(){
+                       $(".animate12").animate({width:'320px', top:'0',left:'0'},"fast",function(){
+                           $(".explore").css("display","block");
+                       });
+                    //   $(".animate13").animate({top: '85px', left:'95px', width:'146',height:'145'},"slow");
+                    });
+
+                // //Create
+                $(".animate2").hover(
+                    function(){
+                    $(".create").css("display","none");
+                    // $(".animate22").animate({top: '185px', width:'150px'},"slow");
+                    $(".animate22").animate({top: '175px', width:'150px',left:'10'},"slow");
+                    //$(".animate23").animate({top: '192px', height:'100px',width:'100px', left:'50'},"fast");
+                    //$(".animate233").animate({top: '212px', left:'70px', height:'60px'},"fast");                    
+                   
+                    },
+                    function(){
+                       $(".animate22").animate({width:'320px', top:'0',left:'0'},"fast",function(){
+                           $(".create").css("display","block");
+                       });
+                       //$(".animate23").animate({top: '63px', left:'81px', width:'181',height:'182'},"slow");
+                       //$(".animate233").animate({top: '101px', left:'119px', height:'105'},"slow");
+                       
+                 });
+
+                // //Produce
+                $(".animate3").hover(
+                    function(){
+                    $(".produce").css("display","none");
+                    // $(".animate32").animate({top: '185px', width:'150px'},"slow");
+                    $(".animate32").animate({top: '175px', width:'150px', left:'10'},"slow");
+                   // $(".animate33").animate({top: '192px', height:'100px',width:'100px', left:'50'},"fast");
+                   
+                    },
+                    function(){
+                       $(".animate32").animate({width:'320px', top:'0',left:'0'},"fast",function(){
+                           $(".produce").css("display","block");
+                       });
+                     //  $(".animate33").animate({top: '85px', left:'95px', width:'146',height:'145'},"slow");
+                });
+            });
+           
+           
+           
+           
+           
+    var anim,anim2;
+    var elem = document.getElementById('bodymovin')
+    var elem2 = document.getElementById('bodymovin2')
+    var elem3 = document.getElementById('bodymovin3')
+    var animData = {
+        container: elem,
+        renderer: 'svg',
+        loop: true,
+        autoplay: true,
+        rendererSettings: {
+            progressiveLoad:false
+        },
+        path: 'data.json'
+    };
+    anim = bodymovin.loadAnimation(animData);
+     var animData = {
+        container: elem3,
+        renderer: 'svg',
+        loop: true,
+        autoplay: true,
+        rendererSettings: {
+            progressiveLoad:false
+        },
+        path: 'data.json'
+    };
+     anim3 = bodymovin.loadAnimation(animData);
+
+    var animData = {
+        container: elem2,
+        renderer: 'svg',
+        loop: true,
+        autoplay: true,
+        rendererSettings: {
+            progressiveLoad:false
+        },
+        path: 'data.json'
+    };
+    anim2 = bodymovin.loadAnimation(animData);
+           
+            </script> 
+
+</body>
+
+</html>
